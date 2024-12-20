@@ -1,0 +1,19 @@
+{
+  "name": "typescript-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "NODE_NO_WARNINGS=1 node --watch --loader=ts-node/esm ./src/index.ts",
+    "check": "npm exec tsc -- -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/core": "^1.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
