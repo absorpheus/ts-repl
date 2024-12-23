@@ -5,8 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "NODE_NO_WARNINGS=1 node --watch --loader=ts-node/esm ./src/index.ts",
-    "check": "npm exec tsc -- -w"
+    "build": "node --no-warnings --loader=ts-node/esm ./src/index.ts",
+    "type-check": "npm exec tsc -- --noEmit"
   },
   "keywords": [],
   "author": "",
