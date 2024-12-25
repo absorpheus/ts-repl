@@ -19,17 +19,21 @@
         "panel": "shared",
         "showReuseMessage": false,
         "clear": true
-      }
+      },
+      "dependsOrder": "sequence",
+      "dependsOn": [
+        "Position Panel Right",
+        "Focus Editor"
+      ]
     },
     {
-      "label": "Position panel right",
+      "label": "Position Panel Right",
+      "type": "shell",
       "command": "${command:workbench.action.positionPanelRight}",
-      "dependsOn": [
-        "run"
-      ],
-      "runOptions": {
-        "runOn": "folderOpen",
-      },
-    }   
+    },
+    {
+      "label": "Focus Editor",
+      "command": "${command:workbench.action.focusLastEditorGroup}",
+    },
   ]
 }
