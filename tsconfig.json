@@ -1,10 +1,7 @@
 {
   "ts-node": {
     "swc": true,
-    "experimentalSpecifierResolution": "node",
-    "compilerOptions": {
-      "module": "ES2022",
-    }
+    "experimentalSpecifierResolution": "node"
   },
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig to read more about this file */
