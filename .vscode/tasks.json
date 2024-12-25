@@ -28,7 +28,6 @@
     },
     {
       "label": "Position Panel Right",
-      "type": "shell",
       "command": "${command:workbench.action.positionPanelRight}",
     },
     {
