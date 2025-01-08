@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "node --no-warnings --loader=ts-node/esm ./src/index.ts",
-    "type-check": "npm exec tsc -- --noEmit",
+    "type-check": "npm exec tsc",
     "type-watch": "npm exec tsc -- -w"
   },
   "keywords": [],
