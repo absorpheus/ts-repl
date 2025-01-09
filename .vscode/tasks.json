@@ -28,6 +28,9 @@
         "Position Panel Right",
         "Focus Editor"
       ],
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
     },
     {
       "label": "Position Panel Right",
