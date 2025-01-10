@@ -48,8 +48,6 @@ To achieve functionality similar to Replit, add these entries to your keybinding
 ]
 ```
 
-Your TypeScript playground is now ready to use directly in VSCode!
-
 ## Usage
 
 1. Open `src/index.ts`
