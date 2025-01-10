@@ -1,4 +1,4 @@
-// Welcome to the TypeScript Playground, this is a local environment
+// Welcome to the TypeScript REPL, this is a local environment
 // which gives you a chance to write, share and learn TypeScript.
 
 // You could think of it in three ways:
