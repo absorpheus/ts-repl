@@ -1,1 +1,1 @@
-# typescript-repl
+# ts-repl
