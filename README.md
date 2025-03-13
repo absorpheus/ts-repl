@@ -18,14 +18,37 @@ ts-repl is a super-fast environment for exploring and experimenting with TypeScr
 ### Installation
 
 First, install dependencies with `npm`.
+
 ```bash
 npm install
 ```
 
 Open the project in VSCode:
+
 ```bash
 code .
 ```
+
+### Install recommended extensions
+
+The workspace includes a list of suggested extensions to enhance your development experience. When you open the project in VSCode, it will prompt you to install these recommended extensions.
+
+If the notification doesn't show up you can manually open up Recommended Extensions settings as follows:
+
+- Open the command palette CMD + Shift + p
+- Type Show Recommended Extensions
+
+All the extensions can be installed together or only required extensions can be installed.
+
+The following extensions are suggested:
+
+- Error Lens (usernamehw.errorlens) – Highlights errors and warnings directly in your code.
+
+- TwoSlash Queries (orta.vscode-twoslash-queries) – Enables TypeScript annotations and inline queries.
+
+- Pretty TypeScript Errors (yoavbls.pretty-ts-errors) – Improves the readability of TypeScript error messages.
+
+- Prettier (esbenp.prettier-vscode) – A popular code formatter for consistent styling.
 
 ### Keybindings
 
@@ -55,7 +78,6 @@ To achieve functionality similar to Replit, add these entries to your keybinding
 2. Start experimenting with TypeScript syntax and features.
 
 3. Update results on demand with Command+Enter, similar to Replit.
-
 
 ## Contributing
 
